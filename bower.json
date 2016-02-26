@@ -5,6 +5,11 @@
     "ember-cli-shims": "0.1.0",
     "ember-cli-test-loader": "0.2.2",
     "ember-qunit-notifications": "0.1.0",
-    "picnic": "^5.1.4"
+    "picnic": "^5.1.4",
+    "moment": "^2.11.2",
+    "borrowers-dates": "^0.0.1"
+  },
+  "resolutions": {
+    "ember": "~2.3.1"
   }
 }
