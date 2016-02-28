@@ -6,7 +6,7 @@ export default Ember.Route.extend({
     return this.store.createRecord('article', {
       // state: 'borrowed', // set default value while define the model
       friend: this.modelFor('friends/show')
-    })
+    });
   }, 
   actions: {
     save() {
